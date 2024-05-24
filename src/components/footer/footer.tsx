@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Link from "next/link";
-import { MdArrowForward } from "react-icons/md";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer: FC = () => {
   return (
@@ -11,19 +11,19 @@ const Footer: FC = () => {
             href="mailto:yleniasacchet@gmail.com"
             className="flex items-center gap-2">
             Email
-            <MdArrowForward />
+            <MdOutlineArrowOutward />
           </Link>
           <Link
             href="https://www.facebook.com/share/MgrC4hPmHxRqXvdm/?mibextid=LQQJ4d"
             className="flex items-center gap-2">
             Facebook
-            <MdArrowForward />
+            <MdOutlineArrowOutward />
           </Link>
           <Link
             href="https://www.instagram.com/yleniasacchet?igsh=YWM2Ynpwc25qYWN2&utm_source=qr"
             className="flex items-center gap-2">
             Instagram
-            <MdArrowForward />
+            <MdOutlineArrowOutward />
           </Link>
         </div>
         <div className="flex justify-center rounded-lg p-5">
