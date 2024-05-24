@@ -15,10 +15,10 @@ export default function Home() {
       </div>
       <div className="flex justify-center text-center -mt-32 p-4">
         <p>
-          Hello there! I'm Ylenia a 23-year old singer/musician from Switzerland
-          who loves blending different sounds and languages into my music. Based
-          in Switzerland right now, but getting ready to move to Copenhagen real
-          soon!
+          Hello there! I&apos;m Ylenia a 23-year old singer/musician from
+          Switzerland who loves blending different sounds and languages into my
+          music. Based in Switzerland right now, but getting ready to move to
+          Copenhagen real soon!
         </p>
       </div>
       <BentoGrid />
