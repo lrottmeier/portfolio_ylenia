@@ -4,7 +4,7 @@ import Test from "../../../public/assets/images/red_natur_portrait.jpeg";
 const BentoGrid = () => {
   return (
     <section className="">
-      <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6 bg-red-400">
+      <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
           <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
             <a
