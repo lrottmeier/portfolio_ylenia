@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Test from "../../../public/assets/images/red_natur_portrait.jpeg";
+import Red from "../../../public/assets/images/red_natur_portrait_cropped.png";
 
 const BentoGrid = () => {
   return (
-    <section className="py-10">
+    <section className="">
       <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
           <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
@@ -12,7 +12,13 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <Image
                 fill={true}
-                src={Test}
+                src={Red}
+                alt=""
+                className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              />
+              <Image
+                fill={true}
+                src={Red}
                 alt=""
                 className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
@@ -25,7 +31,7 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
               <Image
                 fill={true}
-                src={Test}
+                src={Red}
                 alt=""
                 className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
@@ -37,7 +43,7 @@ const BentoGrid = () => {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                 <Image
                   fill={true}
-                  src={Test}
+                  src={Red}
                   alt=""
                   className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
@@ -48,7 +54,7 @@ const BentoGrid = () => {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                 <Image
                   fill={true}
-                  src={Test}
+                  src={Red}
                   alt=""
                   className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
@@ -62,7 +68,7 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <Image
                 fill={true}
-                src={Test}
+                src={Red}
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />

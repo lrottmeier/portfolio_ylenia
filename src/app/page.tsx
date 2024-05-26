@@ -1,12 +1,13 @@
 import Header from "@/components/header/header";
 import Image from "next/image";
-import Portrait_Natur from "../../public/assets/images/red_natur_portrait.jpeg";
+import Portrait_Natur from "../../public/assets/images/red_natur_portrait_cropped.png";
+
 import BentoGrid from "@/components/bento-grid/bento-grid";
 
 export default function Home() {
   return (
     <main>
-      <div className="h-full ">
+      <div className="h-full">
         <Image
           src={Portrait_Natur}
           className="h-3/4 object-cover"
