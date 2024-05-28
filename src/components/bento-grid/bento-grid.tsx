@@ -2,7 +2,7 @@ import Image from "next/image";
 import Studio from "../../../public/assets/images/studio.jpg";
 import Band from "../../../public/assets/images/img_band1.jpeg";
 import Portrait from "../../../public/assets/images/portrait_ylenia_cropped.png";
-import Piano from "../../../public/assets/images/piano.jpg";
+import Piano from "../../../public/assets/images/img_band4.jpeg";
 import Band2 from "../../../public/assets/images/img_band3.jpeg";
 import Recording from "../../../public/assets/images/recording.jpg";
 
