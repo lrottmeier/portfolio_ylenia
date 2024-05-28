@@ -41,7 +41,7 @@ export default function Home() {
           graduation, I&apos;m packing up and moving to Copenhagen to see where
           my music path leads next. The goal? Getting my original music out
           there, touring with my band and constantly writing/producing authentic
-          music.
+          music
         </p>
       </div>
     </main>
