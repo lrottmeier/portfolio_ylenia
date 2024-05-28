@@ -59,7 +59,7 @@ const BentoGrid = () => {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                 <Image
                   fill={true}
-                  src={Recording}
+                  src={Band2}
                   alt=""
                   className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
