@@ -4,7 +4,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer: FC = () => {
   return (
-    <footer className=" pl-5 bg-[#CE263B] rounded-md">
+    <footer className=" pl-5 bg-[#670454] rounded-t-xl">
       <div className="flex flex-col gap-5">
         <div className="flex justify-start text-left my-10">
           <p className="w-3/4 text-xl">
