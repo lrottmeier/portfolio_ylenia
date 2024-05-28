@@ -44,13 +44,6 @@ export default function Home() {
           music.
         </p>
       </div>
-      <div className="flex justify-center text-center my-10">
-        <p className="w-2/3">
-          Wanna join the ride? Follow me on social media for all the latest
-          updates! Feel like collaborating or working together on something
-          dope? Hit me up on my socials
-        </p>
-      </div>
     </main>
   );
 }

@@ -1,5 +1,10 @@
 import Image from "next/image";
-import Red from "../../../public/assets/images/red_natur_portrait_cropped.png";
+import Studio from "../../../public/assets/images/studio.jpg";
+import Band from "../../../public/assets/images/img_band1.jpeg";
+import Portrait from "../../../public/assets/images/portrait_ylenia_cropped.png";
+import Piano from "../../../public/assets/images/piano.jpg";
+import Band2 from "../../../public/assets/images/img_band3.jpeg";
+import Recording from "../../../public/assets/images/recording.jpg";
 
 const BentoGrid = () => {
   return (
@@ -12,13 +17,13 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <Image
                 fill={true}
-                src={Red}
+                src={Studio}
                 alt=""
                 className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
               <Image
                 fill={true}
-                src={Red}
+                src={Band}
                 alt=""
                 className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
@@ -31,7 +36,7 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
               <Image
                 fill={true}
-                src={Red}
+                src={Portrait}
                 alt=""
                 className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
@@ -43,7 +48,7 @@ const BentoGrid = () => {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                 <Image
                   fill={true}
-                  src={Red}
+                  src={Piano}
                   alt=""
                   className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
@@ -54,7 +59,7 @@ const BentoGrid = () => {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                 <Image
                   fill={true}
-                  src={Red}
+                  src={Recording}
                   alt=""
                   className="absolute inset-0  object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
@@ -68,7 +73,7 @@ const BentoGrid = () => {
               className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <Image
                 fill={true}
-                src={Red}
+                src={Recording}
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />

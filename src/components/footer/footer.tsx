@@ -4,8 +4,14 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer: FC = () => {
   return (
-    <footer className=" pl-5 rounded-t-3xl">
-      <div className="flex flex-col gap-10">
+    <footer className=" pl-5 bg-[#CE263B] rounded-md">
+      <div className="flex flex-col gap-5">
+        <div className="flex justify-start text-left my-10">
+          <p className="w-3/4 text-xl">
+            Join the ride! Follow me on social media for updates. Want to
+            collaborate? Reach out on my socials.
+          </p>
+        </div>
         <div className="flex flex-col text-xl gap-5 w-auto">
           <Link
             href="mailto:yleniasacchet@gmail.com"

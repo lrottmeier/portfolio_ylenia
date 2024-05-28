@@ -5,15 +5,15 @@ import Footer from "@/components/footer/footer";
 
 // import "./main.css";
 
-// const pp = localFont({
-//   src: [
-//     {
-//       path: "../fonts/PPTelegraf-Ultrabold.otf",
-//       weight: "500",
-//       style: "normal",
-//     },
-//   ],
-// });
+const lorimer = localFont({
+  src: [
+    {
+      path: "../fonts/Lorimer No 2 Condensed.otf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
 
 export default function RootLayout({
   children,
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     // className={`${pp.className} h-svh`}
-    <html lang="en">
+    <html lang="en" className={`${lorimer.className}`}>
       <body className="">
         <Header />
         {children}
