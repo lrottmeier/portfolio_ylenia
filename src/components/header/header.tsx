@@ -5,7 +5,7 @@ import Typographie from "../../../public/assets/images/Typo_ylenia.png";
 
 const Footer: FC = () => {
   return (
-    <div className="sticky inset-x-0 top-0 flex justify-center bg-black bg-opacity-75 py-3 z-50	">
+    <div className="sticky inset-x-0 top-0 flex justify-center bg-black bg-opacity-75 py-3 z-50 	">
       <Link href="">
         <div className="max-w-screen-sm w-full flex justify-center">
           <Image
