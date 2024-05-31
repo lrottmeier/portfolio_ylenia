@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center text-center py-10 md:py-20 lg:py-32 text-lg md:text-xl lg:text-2xl">
-        <p className="w-3/4 lg:w-4/5">
+        <p className="w-3/4 lg:w-2/5">
           Hello there! I&apos;m Ylenia a 23-year old singer/musician from
           Switzerland who loves blending different sounds and languages into my
           music. Based in Switzerland right now, but getting ready to move to
