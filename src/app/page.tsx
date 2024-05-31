@@ -42,7 +42,7 @@ export default function Home() {
           Meets Grunge,&ldquo;I performed songs in ancient languages like Old
           Norse and Faroese. Beyond vocals, I&apos;m a guitarist and music
           producer, crafting my own tunes and experimenting with new sounds. Not
-          long ago, I started up a band with some very talented friends from
+          long ago, I started a band with some very talented friends from
           school. We&apos;re producing our own grunge/alt-rock tunes and keeping
           an eye out for a perfect band name. My latest project? I went to
           Denmark to capture field recordings and underwater sounds that&apos;ll
