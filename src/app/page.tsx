@@ -3,16 +3,25 @@ import Image from "next/image";
 import Portrait_Natur from "../../public/assets/images/red_natur_portrait_cropped.png";
 
 import BentoGrid from "@/components/bento-grid/bento-grid";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export default function Home() {
   return (
     <main>
-      <div className="h-full">
-        <Image
-          src={Portrait_Natur}
-          className="h-screen object-cover"
-          alt="Typographie"
-        />
+      <div>
+        <div className="h-full">
+          <Image
+            src={Portrait_Natur}
+            className="h-screen object-cover"
+            alt="Typographie"
+          />
+        </div>
+        <div className="flex absolute top-[90%] left-1/2 transform -translate-x-1/2 justify-center text-white text-xs sm:text-sm md:text-lg">
+          <div className="flex flex-col items-center justify-center gap-4 text-center">
+            <p>dive deeper into my musical journey by scrolling down</p>
+            <MdKeyboardDoubleArrowDown className="text-xl" />
+          </div>
+        </div>
       </div>
       <div className="flex justify-center text-center py-10 md:py-20 lg:py-32 text-lg md:text-xl lg:text-2xl">
         <p className="w-2/3 lg:w-3/4">
