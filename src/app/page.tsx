@@ -10,12 +10,12 @@ export default function Home() {
       <div className="h-full">
         <Image
           src={Portrait_Natur}
-          className="h-3/4 object-cover"
+          className="h-screen object-cover"
           alt="Typographie"
         />
       </div>
-      <div className="flex justify-center text-center my-10">
-        <p className="w-2/3">
+      <div className="flex justify-center text-center py-10 md:py-20 lg:py-32 text-lg md:text-xl lg:text-2xl">
+        <p className="w-2/3 lg:w-3/4">
           Hello there! I&apos;m Ylenia a 23-year old singer/musician from
           Switzerland who loves blending different sounds and languages into my
           music. Based in Switzerland right now, but getting ready to move to
@@ -25,8 +25,8 @@ export default function Home() {
       <div className="">
         <BentoGrid />
       </div>
-      <div className="flex justify-center text-center py-10">
-        <p className="w-2/3">
+      <div className="flex justify-center text-center py-10 md:my-20 lg:my-32 text-lg md:text-xl lg:text-2xl">
+        <p className="w-2/3 lg:w-3/4">
           Currently I&apos;m completing my Bachelor of Arts in Music at WIAM,
           where I&apos;ve spent the last four years studying vocals in
           Winterthur. For my final Bachelor&apos;s concert called &ldquo;Viking
@@ -44,6 +44,7 @@ export default function Home() {
           music
         </p>
       </div>
+      <div className="border-t-[0.75px] border1border-white mx-5"></div>
     </main>
   );
 }

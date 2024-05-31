@@ -4,15 +4,15 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer: FC = () => {
   return (
-    <footer className=" pl-5 bg-[#670454] rounded-t-xl">
+    <footer className=" pl-5">
       <div className="flex flex-col gap-5">
         <div className="flex justify-start text-left my-10">
-          <p className="w-3/4 text-xl">
+          <p className="w-3/4 lg:w-1/4 text-lg md:text-xl lg:text-2xl">
             Join the ride! Follow me on social media for updates. Want to
             collaborate? Reach out on my socials.
           </p>
         </div>
-        <div className="flex flex-col text-xl gap-5 w-auto">
+        <div className="flex flex-col w-32 gap-5 text-lg md:text-xl lg:text-2xl">
           <Link
             href="mailto:yleniasacchet@gmail.com"
             className="flex items-center gap-2">
@@ -32,7 +32,7 @@ const Footer: FC = () => {
             <MdOutlineArrowOutward />
           </Link>
         </div>
-        <div className="flex justify-center rounded-lg p-5">
+        <div className="flex justify-center rounded-lg p-5 text-sm lg:text-md">
           <p>Copyright © Ylenia Sacchet 2024</p>
         </div>
       </div>
